@@ -72,6 +72,11 @@ window.onload = function(){
     }
 
     // Eventi
+
+    document.getElementById("btn_Read").addEventListener("click", function() {
+        aggiorna();
+    })
+
     document.getElementById("btn_PrevCapitolo").addEventListener("click", function() {
         reader.prevCapitolo();
         reader.setPagina(1);

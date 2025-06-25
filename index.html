@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kagurabachi Reader</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="Kagurabachi.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="controller-volume-capitolo">
+    <div class="controller-capitolo">
+      <!-- Capitolo Controls -->
+      <button id="btn_PrevCapitolo"class="btn">←</button>
+      <label for="capitolo" class="font-semibold">Capitolo</label>
+      <input type="text" id="capitolo" value="1" >
+      <button id="btn_NextCapitolo"class="btn">→</button>
+    </div>
+  </div>
+  <!-- Img Controls-->
+  <div class="img-controller">
+    <button class="btn-page left" id="btn_PrevPagine" ></button>
+    <img id="img" src="https://www.kagurabachiscanita.org/chapter/01/1.jpg" alt="One Piece Page"/>
+    <button class="btn-page right" id="btn_NextPagine" ></button>
+  </div>
+
+</body>
+</html>
